@@ -1,59 +1,63 @@
-🚀 Loan Prediction AI Chatbot
+# 🚀 Loan Prediction AI Chatbot
 
 An AI-powered chatbot system for predicting loan default risk based on user behavioral patterns.
 Built using React (frontend) + Python FastAPI (backend) + Machine Learning model + RAG architecture.
 
-📥 How to Clone the Project
+##### 📥 How to Clone the Project
 git clone https://github.com/SavindyaBandara/loan-prediction-AI-chatbot.git
-
+```bash 
 cd loan-prediction-AI-chatbot
+```
 
-🖥️ Frontend (React)
+#### 🖥️ Frontend (React)
 
 1️⃣ Navigate to the frontend folder
-
+```bash
 cd frontend
 
 cd chatbot-frontend
-
+```
 2️⃣ Install dependencies
 
+```bash
 npm install
+```
 
 3️⃣ Start the React frontend
+```bash
 npm start
-
+ ```
 Frontend will run at:
 
 👉 http://localhost:3000
 
 
-⚙️ Backend (FastAPI - Python)
+#### ⚙️ Backend (FastAPI - Python)
 
 1️⃣ Navigate to the backend folder
-
+```bash
 cd backend
-
+```
 2️⃣ (Optional) Activate your virtual environment
 
 Windows
-
+```bash
 .\env\Scripts\activate
-
+```
 3️⃣ Install backend dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 4️⃣ Start the FastAPI backend
-
+```bash
 uvicorn app:app --reload
-
+```
 
 Backend will run at:
 
 👉 http://127.0.0.1:8000
 
-🤖 Features
+#### 🤖 Features
 
 ✔ Machine Learning–powered loan default prediction
 
@@ -89,9 +93,3 @@ AI & ML
 Machine Learning model
 
 RAG pipeline (Retrieval-Augmented Generation)
-
-
-
-🙌 Contributors
-
-Savindya Bandara
